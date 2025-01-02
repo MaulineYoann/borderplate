@@ -2,7 +2,7 @@
 
 const App = () => {
   return (
-    <div>borderplate</div>
+    <div className="text-center mt-10 text-3xl">borderplate React-tailwind</div>
   )
 }
 
