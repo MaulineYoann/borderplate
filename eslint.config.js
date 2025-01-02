@@ -16,6 +16,9 @@ export default tseslint.config(
     plugins: {
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
+      "no-console": ["error", { allow: ["warn", "error"] }],
+      "quotes": ["error", "double"],
+      "jsx-quotes": ["error", "prefer-double"],
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
